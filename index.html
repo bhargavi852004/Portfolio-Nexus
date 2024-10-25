@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhargavi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<!------------------------------------------------------------------------------------------------------------------------>
+<body>
+    <div id="header">
+        <nav>
+            <a href="#" class="logo">Nagulapally<span>Bhargavi</span></a>
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About me">About me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="1px";
+        }
+        function closemenu(){
+            sidemenu.style.right="-289px";
+        }
+    </script>
+<!------------------------------------------------------------------------------------------------------------------------->
+    <div class="Home" id="Home">
+        <div class="header-text">
+            <h1>Hi,It's <span>Bhargavi</span></h1>
+            <h4 class="text-animation">I'm <span></span></h4>
+          <div class="icons">
+              <a href="www.linkedin.com/in/nagulapally-bhargavi" title=' Visit linkedin profile' target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://github.com/bhargavi852004" title= 'Visit github' target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com" title='Visit Instagram' target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="nagulapallybhargavi@gmail.com" target="_blank" title="Send email">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </a>
+          </div>
+          <div class="flex-btn">
+              <a href="#Contact" class="btn">Hire</a>
+              <a href="Resume.pdf"  class="btn" download>Resume</a>
+          </div>
+        </div> 
+        <div class="im">
+            <img src="profile.png" alt="">
+        </div>       
+    </div>
+<!----------------------------------------------------------------------------------------------------------------------->
+<div  id="About me">
+    <div class="Aboutme">
+        <div class="row">
+            <div class="col1">
+                <img src="profile.png">
+            </div>
+            <div class="col2 pos">
+                <h1 class="sub">About me</h1>
+                <p class="pa">I’m an AI enthusiast skilled in Python development, 
+                    <br>front-end technologies,and prompt engineering.
+                    <br>My expertise includes Coding(Python,Java,c),Deep learning,
+                    <br>Machine learning.I'm passionate about creating user-friendly AI tools,
+                    <br> Machine learning,Deep learning projects and API-based projects.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active" onclick="opentab('education')"><span>Education</span></p>
+                    <p class="tab-links" onclick="opentab('certification')"><span>Certifications</span></p>
+                    <p class="tab-links" onclick="opentab('experience')"><span>Experience</span></p>
+                </div>
+                <div class="tab-contents active-tab" id='education'>
+                    <table>
+                        <tbody>
+                            <tr><td class="date"><strong>2022-2026</strong></td></tr>
+                            <tr><td>Btech In Computer Science and Technology</td>
+                            <td class="mark">CGPA : 9.1</td></tr>
+                            <tr><td>Vignan's Nirula Institute of Technology and Science for Women</td></tr>
+                            <tr><td></td></tr>
+                            <tr><td class="date"><strong>2020-2022</strong></td></tr>
+                            <tr><td>XII(IPE) In MPC </td>
+                            <td class="mark">Percentage: 95.4%</td></tr>
+                            <tr><td>Sri Chaitanya Junior College</td></tr>
+                            <tr><td class='date'><strong>2017-2020</strong></td></tr>
+                            <tr><td>VIII-X (Schooling)</td>
+                            <td class="mark">Percentage: 99%</td></tr>
+                            <tr><td>Bhashyam High School</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-contents" id='certification'>
+                    <ul>
+                        <li>Google-certifications
+                            <br><a href="https://www.cloudskillsboost.google/public_profiles/ea0698a6-c97d-4c53-8ffe-58ba94353db0/badges/8482406?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" class="cer" target="_blank">Introduction to Generative AI</a>
+                            <br><a href="https://www.cloudskillsboost.google/public_profiles/ea0698a6-c97d-4c53-8ffe-58ba94353db0/badges/8484237?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share" class="cer" target="_blank">Introduction to Large Language Models</a>
+                            
+                        </li>
+                        <li>Edx - Certifications
+                            <br><a href="https://courses.edx.org/certificates/b74eb759ab52418d95f41310601a5dc4"class="cer"target="_blank">Introduction to Prompt Engineering</a>
+                            <br><a href="https://courses.edx.org/certificates/f8682c2bf83640a4a6853009abc6808a"class="cer" target="_blank">Introduction to Data Science with Python</a>
+                        </li>
+                        <ul>
+                        <li>NPTEL-Certifications
+                            <br><a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs43" class="cer" target="_blank">The Joy of Computing Python</a>
+                            <br><a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs43" class="cer" target="_blank">Programming in Java</a>
+                            <br><a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs43" class="cer" target="_blank">Introduction to C Programming</a>
+                            <br><a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs43" class="cer" target="_blank"></a>
+                        </li>
+                        <li>Other-Certifications
+                            <br><a href="PET.jpg" class="cer" target="_blank" download>Preliminary English Test by Cambridge English</a>
+                            <a href="https://skills.yourlearning.ibm.com/certificate/share/8c40866c3bewogICJvYmplY3RJZCIgOiAiSUxCLVpLVkpOWFZaS01aWEVXR04iLAogICJsZWFybmVyQ05VTSIgOiAiMjc1MzQ1M1JFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIgp9b6d5159294-10" class="cer"target="_blank"><p class="cn">IBM SKILLS BUILD</p>Aritificial Intelligence in Practice</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id='experience'>
+                    <ul>
+                        <li>IBM Internship</li>
+                        <li>Research Papers</li>
+                        <li>IBM Internship</li>
+                        <li>IBM Internship</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!---------------------------------------------------------------------------------------------------------------------->
+<div id="Skills">
+    <div class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level Python">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-level Java">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level js">30%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>C</h3>
+                <div class="skill-bar">
+                    <div class="skill-level C">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Django</h3>
+                <div class="skill-bar">
+                    <div class="skill-level Django">0%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level React">0%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Kotlin</h3>
+                <div class="skill-bar">
+                    <div class="skill-level kotlin">40%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Data Science</h3>
+                <div class="skill-bar">
+                    <div class="skill-level DataScience">60%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>MongoDB</h3>
+                <div class="skill-bar">
+                    <div class="skill-level MongoDB">0%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>DBMS/SQL</h3>
+                <div class="skill-bar">
+                    <div class="skill-level DBMSSQL">40%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Html</h3>
+                <div class="skill-bar">
+                    <div class="skill-level Html">90%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------------------------------------------------------------------------------------------------->
+    <div id="services">
+      <h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-external-link-alt"></i>
+          <h2>Software Developer</h2>
+          <p> As a software developer skilled in Python, C, and Java, I design and implement robust, efficient, and scalable software solutions. I specialize in developing applications that meet complex requirements, ensuring high performance and security. My expertise spans various industries, from crafting back-end systems to creating user-friendly interfaces.</p>
+          <a href="https://resources.workable.com/software-developer-job-description" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Developer</h2>
+          <p>As a web developer, I build dynamic and responsive websites, focusing on creating user-friendly interfaces and seamless user experiences. I specialize in both front-end and back-end development, ensuring that websites are not only visually appealing but also functionally robust and optimized for performance across all devices.</p>
+          <a href="https://www.spiceworks.com/tech/it-careers-skills/articles/web-developer/" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-robot"></i>
+          <h2>Prompt Engineer</h2>
+          <p>As a prompt engineer, I specialize in crafting precise and effective prompts that guide AI models to generate accurate and contextually relevant outputs. My work involves understanding the nuances of language models, fine-tuning prompts for optimal performance, and ensuring that AI-generated content meets specific needs and standards across diverse applications.</p>
+          <a href="https://hiring.monster.com/resources/job-descriptions/ai-job-description-templates/prompt-engineer-job-description-template/" target="_blank">Learn more</a>
+        </div>
+        <div >
+          <i class="fa-solid fa-code"></i>
+          <h2>Programmer</h2>
+          <p>As a programmer, I write clean, efficient, and well-structured code to solve problems and build software solutions. My work involves translating ideas into functional programs, debugging issues, and continuously improving code quality to ensure optimal performance and reliability. I adapt to various programming languages and frameworks to meet project requirements.</p>
+          <a href="https://www.herzing.edu/description/computer-programmer" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-robot"></i>
+          <h2>AI Content Designer</h2>
+          <p>As an AI content designer, I create compelling and tailored content using artificial intelligence, blending creativity with advanced algorithms to produce engaging and high-quality materials. My role involves optimizing AI tools to generate content that resonates with target audiences, ensuring consistency, relevance, and alignment with strategic goals across various digital platforms.</p>
+          <a href="https://www.lyssna.com/blog/what-does-a-content-designer-do/" target="_blank">Learn more</a>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------->
+<div id="Projects">
+    <div class="project">
+        <h1 class="sub1">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="ia11.jpg">
+                <div class="layer">
+                    <h3>Insta Automation</h3>
+                    <p>The Instapost Scheduler is a tool designed to streamline
+                social media management by automating the scheduling and posting of content on Instagram,
+                ensuring consistent and timely engagement with your audience.</p>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="har.jpg">
+                <div class="layer">
+                    <h3>Human Action Recognition</h3>
+                    <p>The Human Action Recognition project utilizes OpenCV and deep learning techniques
+                to accurately identify and classify human actions in real-time, enhancing applications in security,
+                interactive systems, and automated video analysis.</p>
+                    <a href="https://github.com/bhargavi852004/ActionSense-IoT-Connected-Human-Activity-Recognition-with-OpenCV" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="rdd.jpg">
+                <div class="layer">
+                    <h3>Rice Leaf Disease Detection</h3>
+                    <p>The Rice Leaf Disease Detection project leverages deep learning 
+                to analyze and identify various diseases affecting rice plants, providing accurately 
+                and timely diagnostics to support agricultural health and improve crop yield.</p>
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/bhargavi852004" target="_blank" class="btn1">See More</a>
+    </div>
+
+</div>
+<!----------------------------------------------------------------------------------------------------------------------->
+<div id="Contact">
+    <div class="contact">
+        <div class="row">
+            <div class="col-left">
+                <h1 class="sub">
+                    Contact me
+                </h1>
+                <p><i class="fas fa-paper-plane"></i>nagulapallybhargavi@gmail.com</p>
+                <p><i class="fas fa-phone-square"></i>9603255137</p>
+                <div class="social-media">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/bhargavi852004" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/nagulapally-bhargavi" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="number" name="Phoneno" placeholder="Your phoneno" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        
+
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwrI5uVr_b3JWmyeFmO4Fv2QJF1tLTcqBH1s08QLTzbhkwlqXm-d9MwWlagjr5YdUew3Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<!---------------------------------------------------------------------------------------------------------------------->
+<footer>
+    <p>&copy; 2024 Bhargavi's Portfolio||All Rights Reserved.</p>
+</footer>
+    
+</body>
+</html>
